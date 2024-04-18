@@ -1,6 +1,6 @@
 Trance's Hotel
 with NPCs
-(Ver.2.2.11)
+(Ver.2.3.1)
 $
 
 ASSETS
@@ -363,6 +363,12 @@ ureishi
  
 $
 -----------------------------------
+2024/04/18 Ver.2.3.1 Release
+Change UI Color
+Add Shop 
+Fix Wear Color|
+Change Attach Sysytem
+
 2024/04/03 Ver.2.2.11 Release
 Save System Reset and Restart
 
