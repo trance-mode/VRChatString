@@ -347,7 +347,7 @@ VRCHATID: TRANCE_MODE[JP]
 Twitter: @trance_mode
 
 
-Discord: Trance#3780
+Discord: trance_mode
 
 
 Booth: https://trancemode.booth.pm
@@ -616,6 +616,18 @@ Alexander Wolf, CurtisVL, eevee mania, Emanuel Mijangos, EST- Pepe, シャリア
 
 $
 
+(Planned implementation)
+Motion changes based on player's line of sight
+eating gimmick
+Motion changes based on likeability parameters
+Motion change by playerHeight
+Add clothes
+Add accessories
+Add motion
+NPC added
+hairstyle change
+Language selection function
+
 （実装予定）
 プレイヤー視線によるモーション変更
 食べるギミック
@@ -626,11 +638,9 @@ playerHeightによるモーション変更
 モーション追加
 NPC追加
 髪型の変更
+言語選択機能
 
 ----------------------------
 
 if you enjoyed this world, 
 Support me!
-
-FANBOX
-https://trancemode.fanbox.cc/
