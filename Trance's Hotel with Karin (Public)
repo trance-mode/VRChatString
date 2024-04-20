@@ -1,6 +1,6 @@
 Trance's Hotel
 with NPCs
-(Ver.2.3.1)
+(Ver.2.3.2)
 $
 
 ASSETS
@@ -363,6 +363,11 @@ ureishi
  
 $
 -----------------------------------
+2024/04/18 Ver.2.3.2 Release
+Fix Milk1.1 Favorability rating System Bug
+Fix Shop Menu Bug
+Fix Object Menu Bug
+
 2024/04/18 Ver.2.3.1 Release
 Change UI Color
 Add Shop 
