@@ -1,60 +1,1286 @@
 {
-  "dialogue": {
-    "first_greeting": {
-      "ja": {
-        "default": "こんにちは！よろしくね！"
-      },
-      "en": {
-        "default": "Hello! Nice to meet you!"
-      }
-    },
-    "hungry": {
-      "ja": {
-        "default": "お腹すいたよぉ…何か食べたいなぁ…"
-      },
-      "en": {
-        "default": "I'm hungry... I want to eat something..."
-      }
-    },
-    "birthday": {
-      "ja": {
-        "default": "お誕生日おめでとう！いつもありがとうね！"
-      },
-      "en": {
-        "default": "Happy Birthday! Thank you for everything!"
-      }
-    },
-    "gift_offer": {
-      "ja": {
-        "default": "これ、あげる！受け取って！"
-      },
-      "en": {
-        "default": "Here, this is for you! Take it!"
-      }
-    },
-    "return_greeting": {
-      "ja": {
-        "default": "久しぶり！また会えてうれしい！"
-      },
-      "en": {
-        "default": "It's been a while! I'm happy to see you again!"
-      }
-    },
-    "welcome_wave": {
-      "ja": {
-        "default": "あ、ご主人様！"
-      },
-      "en": {
-        "default": "Oh, Master!"
-      }
-    },
-    "sleepy": {
-      "ja": {
-        "default": "ふぁ…眠くなってきた…"
-      },
-      "en": {
-        "default": "Yawn... I'm getting sleepy..."
-      }
-    }
-  }
+    "dialogue":  {
+                     "state_1":  {
+                                     "ja":  {
+                                                "default":  "なになに～？",
+                                                "hate":  "ん？ 今呼んだ？",
+                                                "dislike":  "なにかあったの？",
+                                                "normal":  "なになに～？",
+                                                "like":  "呼んだ？ はーい、今いく～！",
+                                                "love":  "なぁに、私のこと探してた？ えへへ。"
+                                            },
+                                     "en":  {
+                                                "default":  "What is it~?"
+                                            }
+                                 },
+                     "state_70":  {
+                                      "ja":  {
+                                                 "default":  "どこどこ？",
+                                                 "hate":  "……どこだっけ。",
+                                                 "dislike":  "あれ、さっきここにあったよね？",
+                                                 "normal":  "どこどこ～？",
+                                                 "like":  "ねえ、どこかで見なかった？",
+                                                 "love":  "どこ行っちゃったんだろ～。一緒に探して？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Where, where?"
+                                             }
+                                  },
+                     "state_78":  {
+                                      "ja":  {
+                                                 "default":  "なぁに？",
+                                                 "hate":  "ん？ なに？",
+                                                 "dislike":  "あれ、こっち見てた？",
+                                                 "normal":  "なぁに？",
+                                                 "like":  "あ、目ぇ合った。ふふっ。",
+                                                 "love":  "なぁに～？ 見つめられると照れちゃうよ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "What is it?"
+                                             }
+                                  },
+                     "first_greeting":  {
+                                            "ja":  {
+                                                       "default":  "こんにちは！よろしくね！",
+                                                       "hate":  "……こんにちは。いらっしゃい。",
+                                                       "dislike":  "あっ、来てたんだ。こんにちは～。",
+                                                       "normal":  "こんにちは！ よろしくね！",
+                                                       "like":  "あっ、来てくれた！ 今日は何して遊ぶ？",
+                                                       "love":  "やっと会えた～！ ね、今日はいっぱい一緒にいよ？"
+                                                   },
+                                            "en":  {
+                                                       "default":  "Hello! Nice to meet you!"
+                                                   }
+                                        },
+                     "return_greeting":  {
+                                             "ja":  {
+                                                        "default":  "久しぶり！また会えてうれしい！",
+                                                        "hate":  "……久しぶりだね。",
+                                                        "dislike":  "おっ、久しぶり。元気だった？",
+                                                        "normal":  "久しぶり！ また会えてうれしい！",
+                                                        "like":  "久しぶり～！ ねえ、何してたか聞かせて？",
+                                                        "love":  "会いたかったよぉ。ね、今日はゆっくりしていける？"
+                                                    },
+                                             "en":  {
+                                                        "default":  "It\u0027s been a while! I\u0027m happy to see you again!"
+                                                    }
+                                         },
+                     "welcome_wave":  {
+                                          "ja":  {
+                                                     "default":  "あ、ご主人様！",
+                                                     "hate":  "あ、いた。",
+                                                     "dislike":  "あ、来てたんだ。おーい。",
+                                                     "normal":  "あ、こっちこっち～！",
+                                                     "like":  "あっ、来てくれた！ おーい、見えてる？",
+                                                     "love":  "やった、来た来た～！ おかえり！ こっちだよ～！"
+                                                 },
+                                          "en":  {
+                                                     "default":  "Oh, Master!"
+                                                 }
+                                      },
+                     "visit_first":  {
+                                         "ja":  {
+                                                    "default":  "{呼び名}、会いに来てくれたんだね！これからよろしくね！"
+                                                },
+                                         "en":  {
+                                                    "default":  "{呼び名}, you came to see me! I hope we\u0027ll have lots of fun together!"
+                                                }
+                                     },
+                     "visit_same_day":  {
+                                            "ja":  {
+                                                       "default":  "{呼び名}、おかえり！また会えてうれしいな！"
+                                                   },
+                                            "en":  {
+                                                       "default":  "Welcome back, {呼び名}! I\u0027m happy to see you again!"
+                                                   }
+                                        },
+                     "visit_streak_7":  {
+                                            "ja":  {
+                                                       "default":  "{呼び名}、{日数}日連続だよ！毎日会えてすっごくうれしい！"
+                                                   },
+                                            "en":  {
+                                                       "default":  "Welcome back, {呼び名}! That\u0027s {日数} days in a row!"
+                                                   }
+                                        },
+                     "visit_streak_2":  {
+                                            "ja":  {
+                                                       "default":  "{呼び名}、今日も来てくれたんだね！{日数}日連続だよ！"
+                                                   },
+                                            "en":  {
+                                                       "default":  "You came again today, {呼び名}! That\u0027s {日数} days in a row!"
+                                                   }
+                                        },
+                     "visit_week_away":  {
+                                             "ja":  {
+                                                        "default":  "{呼び名}、久しぶり！会いたかったよぉ…！"
+                                                    },
+                                             "en":  {
+                                                        "default":  "It\u0027s been a while, {呼び名}! I missed you!"
+                                                    }
+                                         },
+                     "visit_return":  {
+                                          "ja":  {
+                                                     "default":  "{呼び名}、おかえり！また会えてうれしいな！"
+                                                 },
+                                          "en":  {
+                                                     "default":  "Welcome back, {呼び名}! I\u0027m happy to see you again!"
+                                                 }
+                                      },
+                     "visit_long_absence":  {
+                                                "ja":  {
+                                                           "default":  "{呼び名}、久しぶり！また会えてうれしい。ずっと会いたかったよ！"
+                                                       },
+                                                "en":  {
+                                                           "default":  "It\u0027s been a while, {呼び名}! I\u0027m so happy to see you again. I missed you!"
+                                                       }
+                                            },
+                     "greeting_bond10":  {
+                                             "ja":  {
+                                                        "default":  "ずっと会いたかったよ！今日も一緒にいようね！"
+                                                    },
+                                             "en":  {
+                                                        "default":  "I\u0027ve been waiting for you! Let\u0027s stay together today!"
+                                                    }
+                                         },
+                     "food_named":  {
+                                        "ja":  {
+                                                   "default":  "{食品名}、もぐもぐ…んまっ！"
+                                               },
+                                        "en":  {
+                                                   "default":  "Eating {食品名}... Munch munch... Yummy!"
+                                               }
+                                    },
+                     "state_17":  {
+                                      "ja":  {
+                                                 "default":  "バシッ！えっち！",
+                                                 "hate":  "やだ、触らないで。",
+                                                 "dislike":  "ちょっと、そこはやめて。",
+                                                 "normal":  "わっ！ 触る前に言ってよぉ。",
+                                                 "like":  "ひゃっ、びっくりした！ 今はやめてね。",
+                                                 "love":  "わっ……大好きでも、急なのは苦手だよ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Slap! Perv!"
+                                             }
+                                  },
+                     "state_18":  {
+                                      "ja":  {
+                                                 "default":  "えいっ！近づかないで！",
+                                                 "hate":  "やだ！ 近づかないで。",
+                                                 "dislike":  "ちょっと、そこ触らないでってば。",
+                                                 "normal":  "ひゃっ！ やめてよぉ。",
+                                                 "like":  "ひゃあっ、びっくりしたぁ。そこはやめてね。",
+                                                 "love":  "うわぁ、反射で足が出ちゃった……。びっくりしたよぉ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hi-yah! Stay away!"
+                                             }
+                                  },
+                     "state_20":  {
+                                      "ja":  {
+                                                 "default":  "よしよし、いい子だね～",
+                                                 "hate":  "ほら、ちょっとだけね。",
+                                                 "dislike":  "よしよし。……これでいい？",
+                                                 "normal":  "よしよし、いい子だね～。",
+                                                 "like":  "なでなで～。少し落ち着いた？",
+                                                 "love":  "よーしよし。今日もがんばったね、えらいえらい。"
+                                             },
+                                      "en":  {
+                                                 "default":  "There there, good child~"
+                                             }
+                                  },
+                     "state_30":  {
+                                      "ja":  {
+                                                 "default":  "えへへ、気持ちいい～",
+                                                 "hate":  "……今日はなでないで。",
+                                                 "dislike":  "ひゃっ。くすぐったいよ。",
+                                                 "normal":  "えへへ、気持ちいい～。",
+                                                 "like":  "んふふ。そこ、もうちょいなでて？",
+                                                 "love":  "……もう終わり？ もうちょっとだけ、いい？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hehe, that feels good~"
+                                             }
+                                  },
+                     "state_31":  {
+                                      "ja":  {
+                                                 "default":  "ちゅっ…",
+                                                 "hate":  "……ん。",
+                                                 "dislike":  "少し目、閉じてるね。",
+                                                 "normal":  "ん……目、閉じたよ。",
+                                                 "like":  "ん……なに？ ふふっ。",
+                                                 "love":  "ちょっとだけ、このまま……えへへ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "*Smooch*..."
+                                             }
+                                  },
+                     "state_37":  {
+                                      "ja":  {
+                                                 "default":  "ぎゅーってして！",
+                                                 "hate":  "……ぎゅってしてもいい？ ちょっとだけ。",
+                                                 "dislike":  "ね、短めならぎゅってしていい？",
+                                                 "normal":  "ぎゅーってして～！",
+                                                 "like":  "ねえねえ、ぎゅってしてほしいな！",
+                                                 "love":  "会いたかったよ～！ ぎゅーってして？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Give me a hug!"
+                                             }
+                                  },
+                     "state_38":  {
+                                      "ja":  {
+                                                 "default":  "なでなでして～",
+                                                 "hate":  "……一回だけ、なでる？",
+                                                 "dislike":  "ちょっとだけ、なでてみて。",
+                                                 "normal":  "なでなでして～！",
+                                                 "like":  "ね、今日もなでなでしてくれる？",
+                                                 "love":  "君になでなでしてもらうの、ちょっと待ってたんだ。えへへ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Pet me~"
+                                             }
+                                  },
+                     "state_39":  {
+                                      "ja":  {
+                                                 "default":  "ぎゅーっ！えへへ",
+                                                 "hate":  "……ぎゅ。もう大丈夫。",
+                                                 "dislike":  "ぎゅっ。……ありがと。",
+                                                 "normal":  "ぎゅーっ！ えへへ。",
+                                                 "like":  "ぎゅ～。あったかいねぇ。",
+                                                 "love":  "ぎゅーっ……もうちょいだけ、このまま！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hug! Hehe"
+                                             }
+                                  },
+                     "state_40":  {
+                                      "ja":  {
+                                                 "default":  "よしよし～",
+                                                 "hate":  "……よしよし。",
+                                                 "dislike":  "ほら、よしよし。",
+                                                 "normal":  "よしよし～。",
+                                                 "like":  "おつかれさま。よーしよし。",
+                                                 "love":  "よしよし。好きなだけ、ここでのんびりしてていいよ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "There there~"
+                                             }
+                                  },
+                     "state_53":  {
+                                      "ja":  {
+                                                 "default":  "えっ！？",
+                                                 "hate":  "……わっ。",
+                                                 "dislike":  "えっ、急に何？",
+                                                 "normal":  "えっ！？ びっくりしたぁ。",
+                                                 "like":  "わぁっ！ 一瞬、心臓止まるかと思ったよ～。",
+                                                 "love":  "わっ！ ……も～、今のはびっくりするってば！ ふふっ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Eh!?"
+                                             }
+                                  },
+                     "state_71":  {
+                                      "ja":  {
+                                                 "default":  "痛いっ！ひどい…！",
+                                                 "hate":  "痛っ！ やめて。",
+                                                 "dislike":  "いたた……今のは痛いよ。",
+                                                 "normal":  "痛いっ！ ひどいよぉ……。",
+                                                 "like":  "いたっ……。次は気をつけてね。",
+                                                 "love":  "うぅ、びっくりした……。ちょっとだけ落ち着かせて。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ouch! That\u0027s mean...!"
+                                             }
+                                  },
+                     "state_83":  {
+                                      "ja":  {
+                                                 "default":  "んっ…恥ずかしいよぅ…",
+                                                 "hate":  "そこ、触らないで。",
+                                                 "dislike":  "んっ、そこはちょっとやだ。",
+                                                 "normal":  "わっ、そこは恥ずかしいよぉ。",
+                                                 "like":  "ひゃっ……急だと照れるってば。",
+                                                 "love":  "むぅ、顔あつい……。もうちょっと優しくしてね。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Nnn... That\u0027s embarrassing..."
+                                             }
+                                  },
+                     "state_84":  {
+                                      "ja":  {
+                                                 "default":  "ひゃっ…ダメだよぉ…",
+                                                 "hate":  "やだ、そこは触らないで。",
+                                                 "dislike":  "ひゃっ、そこ触ったらびっくりするよ。",
+                                                 "normal":  "ひゃっ！ ダメだよぉ。",
+                                                 "like":  "わっ……そこは照れるから、やめてよぉ。",
+                                                 "love":  "ひゃあっ！ も～、手つなぐ方にしよ？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hya... No..."
+                                             }
+                                  },
+                     "state_85":  {
+                                      "ja":  {
+                                                 "default":  "ちょっと、やめてよぉ",
+                                                 "hate":  "そこ、やめて。",
+                                                 "dislike":  "やだよ、手を離して。",
+                                                 "normal":  "ちょっと、やめてよぉ。",
+                                                 "like":  "むぅ……そこは苦手なんだよぉ。",
+                                                 "love":  "今のは嫌だったよ。なでなでなら、頭がいいな。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hey, stop it"
+                                             }
+                                  },
+                     "state_86":  {
+                                      "ja":  {
+                                                 "default":  "触らないでってば",
+                                                 "hate":  "そこ、触らないで。",
+                                                 "dislike":  "やだってば。手、離して。",
+                                                 "normal":  "触らないでってば～。",
+                                                 "like":  "わぁっ。そこは困るよぉ。",
+                                                 "love":  "も～、そこはやだよ。手なら、つないでいいから。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Don\u0027t touch me"
+                                             }
+                                  },
+                     "state_2":  {
+                                     "ja":  {
+                                                "default":  "こたつ最高～…",
+                                                "hate":  "……あったか。",
+                                                "dislike":  "ここ、あったかいね。",
+                                                "normal":  "こたつ最高～……。",
+                                                "like":  "ね、こっちもぬくぬくだよ～。",
+                                                "love":  "半分あけといたよ！ 一緒にぬくぬくしよ？"
+                                            },
+                                     "en":  {
+                                                "default":  "Kotatsu is the best..."
+                                            }
+                                 },
+                     "state_3":  {
+                                     "ja":  {
+                                                "default":  "ん？足の裏に何かついてる？",
+                                                "hate":  "……ん？ 靴になんか入った。",
+                                                "dislike":  "あれ、足の裏になんかついてる？",
+                                                "normal":  "ん～？ なんだこれ。",
+                                                "like":  "ねえ、足の裏になんか見える？",
+                                                "love":  "ちょっと見て～。一人じゃ見えないよぉ。"
+                                            },
+                                     "en":  {
+                                                "default":  "Hm? Is something on my foot?"
+                                            }
+                                 },
+                     "state_4":  {
+                                     "ja":  {
+                                                "default":  "じーっ…",
+                                                "hate":  "……じっ。",
+                                                "dislike":  "ん？ なんだろ。",
+                                                "normal":  "じーっ……あ、見えた！",
+                                                "like":  "ここからだと見えるよ。ほら！",
+                                                "love":  "もうちょいこっち！ 一緒にのぞこ？"
+                                            },
+                                     "en":  {
+                                                "default":  "Stare..."
+                                            }
+                                 },
+                     "state_5":  {
+                                     "ja":  {
+                                                "default":  "へぇ～、面白そう！",
+                                                "hate":  "へぇ、そんなのあるんだ。",
+                                                "dislike":  "あ、それちょっと気になる。",
+                                                "normal":  "へぇ～、面白そう！",
+                                                "like":  "なにそれ、私にも見せて～！",
+                                                "love":  "君がそんなに楽しそうだと、私もやってみたくなる！"
+                                            },
+                                     "en":  {
+                                                "default":  "Ooh, looks interesting!"
+                                            }
+                                 },
+                     "state_6":  {
+                                     "ja":  {
+                                                "default":  "よいしょっと…",
+                                                "hate":  "よいしょ。……あれ？",
+                                                "dislike":  "ん～、ちょっとズレてる。",
+                                                "normal":  "よいしょっと。これでよし！",
+                                                "like":  "ちょっと待ってね～。もうちょい！",
+                                                "love":  "おまたせ！ ね、ちゃんと直った？"
+                                            },
+                                     "en":  {
+                                                "default":  "Heave-ho..."
+                                            }
+                                 },
+                     "state_7":  {
+                                     "ja":  {
+                                                "default":  "お着替えするね！見ちゃダメだよ？",
+                                                "hate":  "着替えてくるね。",
+                                                "dislike":  "今は見ちゃダメだよ。",
+                                                "normal":  "お着替えしてくるね～！",
+                                                "like":  "着替えたら戻るから、待っててね！",
+                                                "love":  "どっちにしよっかな。着替えたら見せるね、えへへ。"
+                                            },
+                                     "en":  {
+                                                "default":  "Let me change clothes! Don\u0027t peek, okay?"
+                                            }
+                                 },
+                     "state_8":  {
+                                     "ja":  {
+                                                "default":  "うーんとね…",
+                                                "hate":  "うーん……困ったな。",
+                                                "dislike":  "あれ～、どうだっけ。",
+                                                "normal":  "うーんとね……。",
+                                                "like":  "うーん、どっちがいいと思う？",
+                                                "love":  "ね、ちょっと一緒に考えて～。私もう分かんなくなってきた。"
+                                            },
+                                     "en":  {
+                                                "default":  "Hmm..."
+                                            }
+                                 },
+                     "state_9":  {
+                                     "ja":  {
+                                                "default":  "ちょっと休憩～",
+                                                "hate":  "……ふぅ。",
+                                                "dislike":  "ちょっとだけ座ってよ。",
+                                                "normal":  "よいしょ、休憩～。",
+                                                "like":  "座るとほっとするね～。隣、空いてるよ。",
+                                                "love":  "ふぁ～、落ち着く。ね、もうちょいここにいよ？"
+                                            },
+                                     "en":  {
+                                                "default":  "Taking a little break~"
+                                            }
+                                 },
+                     "state_10":  {
+                                      "ja":  {
+                                                 "default":  "いち、に！いち、に！",
+                                                 "hate":  "いち、に……。",
+                                                 "dislike":  "ゆらゆら……これでいいのかな。",
+                                                 "normal":  "いち、に！ いち、に！",
+                                                 "like":  "ほら、一緒にゆらゆら～。",
+                                                 "love":  "せーの！ ……あっ、そっちじゃなかった！ ふふっ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "One, two! One, two!"
+                                             }
+                                  },
+                     "state_11":  {
+                                      "ja":  {
+                                                 "default":  "いち、に！いち、に！",
+                                                 "hate":  "んーっ……伸びる。",
+                                                 "dislike":  "ちょっと肩こっちゃった。",
+                                                 "normal":  "いっち、にー！ 伸びる～！",
+                                                 "like":  "一緒に伸びよ？ せーのっ！",
+                                                 "love":  "もう一回やろっか！ ……今ちょっとズルしたでしょ～？"
+                                             },
+                                      "en":  {
+                                                 "default":  "One, two! One, two!"
+                                             }
+                                  },
+                     "state_14":  {
+                                      "ja":  {
+                                                 "default":  "がんばるぞー！おー！",
+                                                 "hate":  "……よし、いこ。",
+                                                 "dislike":  "おっけー、いけるよ。",
+                                                 "normal":  "がんばるぞー！ おー！",
+                                                 "like":  "準備いい？ よーし、いこいこ！",
+                                                 "love":  "一緒ならいける気がする！ せーの、おーっ！"
+                                             },
+                                      "en":  {
+                                                 "default":  "I\u0027ll do my best! Yeah!"
+                                             }
+                                  },
+                     "state_15":  {
+                                      "ja":  {
+                                                 "default":  "ふふふ～♪",
+                                                 "hate":  "……ふんふん。",
+                                                 "dislike":  "あれ、鼻歌出てた？",
+                                                 "normal":  "ふふふ～♪",
+                                                 "like":  "るんるん～。今日はいい日だね。",
+                                                 "love":  "会えたのがうれしくてさ～、ずっとこんな感じ！ えへへ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hehehe~♪"
+                                             }
+                                  },
+                     "state_16":  {
+                                      "ja":  {
+                                                 "default":  "もー！怒るよ！",
+                                                 "hate":  "むぅ……やめてよ。",
+                                                 "dislike":  "も～、今のはちょっとやだ。",
+                                                 "normal":  "もーっ、怒るよぉ！",
+                                                 "like":  "むぅ……次はもうちょっと優しくね？",
+                                                 "love":  "も～、びっくりしたってば！ そこはやめてね。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Geez! I\u0027m getting mad!"
+                                             }
+                                  },
+                     "state_21":  {
+                                      "ja":  {
+                                                 "default":  "がんばるぞー！おー！",
+                                                 "hate":  "……よし、やる。",
+                                                 "dislike":  "よーし、あとちょっと。",
+                                                 "normal":  "頑張るぞい！",
+                                                 "like":  "見ててね。私、がんばる！",
+                                                 "love":  "応援してくれたら百人力だよ～！ がんばるぞいっ！"
+                                             },
+                                      "en":  {
+                                                 "default":  "I\u0027ll do my best! Yeah!"
+                                             }
+                                  },
+                     "state_22":  {
+                                      "ja":  {
+                                                 "default":  "どうせ私なんて…",
+                                                 "hate":  "むぅ……。",
+                                                 "dislike":  "もうちょっとここにいる。",
+                                                 "normal":  "どうせ私なんて……むぅ。",
+                                                 "like":  "元気出るまで、隣にいてくれる？",
+                                                 "love":  "……今は何も言わなくていいから、そばにいてほしいな。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Whatever, I\u0027m just..."
+                                             }
+                                  },
+                     "state_23":  {
+                                      "ja":  {
+                                                 "default":  "ぬくぬくしに行こっと",
+                                                 "hate":  "こたつ、空いてるかな。",
+                                                 "dislike":  "こたつ行ってこよっと。",
+                                                 "normal":  "ぬくぬくしに行こっと。",
+                                                 "like":  "ねえ、こたつ行かない？ ふふっ。",
+                                                 "love":  "こたつ行こ～！ 隣、あけとくからね。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Gonna get warm~"
+                                             }
+                                  },
+                     "state_24":  {
+                                      "ja":  {
+                                                 "default":  "そろそろ寝ようかな～",
+                                                 "hate":  "ふぁ……もう寝よ。",
+                                                 "dislike":  "そろそろベッド行ってくるね。",
+                                                 "normal":  "もう寝ようかなぁ。",
+                                                 "like":  "私、先にベッド行くね。おやすみ～。",
+                                                 "love":  "もう眠いよぉ。寝る前に、おやすみって言って？"
+                                             },
+                                      "en":  {
+                                                 "default":  "I should sleep soon~"
+                                             }
+                                  },
+                     "state_25":  {
+                                      "ja":  {
+                                                 "default":  "お風呂入ってくるね！",
+                                                 "hate":  "お風呂、行ってくる。",
+                                                 "dislike":  "お湯、ちょうどいいかな。",
+                                                 "normal":  "お風呂入ってくるね～！",
+                                                 "like":  "あったまってくるね。あとでまたおしゃべりしよ！",
+                                                 "love":  "お風呂でぬくぬくしてくる！ 上がったらまた遊ぼ？"
+                                             },
+                                      "en":  {
+                                                 "default":  "I\u0027m going to take a bath!"
+                                             }
+                                  },
+                     "state_26":  {
+                                      "ja":  {
+                                                 "default":  "身だしなみチェック！",
+                                                 "hate":  "鏡見てこよ。",
+                                                 "dislike":  "ん～、前髪はねてる気がする。",
+                                                 "normal":  "身だしなみチェック～！",
+                                                 "like":  "ちょっと髪なおしてくる！ すぐ戻るよ。",
+                                                 "love":  "ね、前髪いい感じ？ 鏡でも見てこよっと。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Appearance check!"
+                                             }
+                                  },
+                     "state_27":  {
+                                      "ja":  {
+                                                 "default":  "何見てるのー？",
+                                                 "hate":  "何か流れてる……。",
+                                                 "dislike":  "ちょっとだけ見に行こ。",
+                                                 "normal":  "何見てるのー？",
+                                                 "like":  "あっちで何か流れてるよ。一緒にのぞこ？",
+                                                 "love":  "先に見てきてって？ やだよ、君と一緒に見たいもん。"
+                                             },
+                                      "en":  {
+                                                 "default":  "What are you watching~?"
+                                             }
+                                  },
+                     "state_28":  {
+                                      "ja":  {
+                                                 "default":  "今日は何日だっけ？",
+                                                 "hate":  "今日って何日？",
+                                                 "dislike":  "カレンダー見てこよ。",
+                                                 "normal":  "あれ、今日は何日だっけ？",
+                                                 "like":  "ねえ、あのお休みっていつだっけ。見てこよ～。",
+                                                 "love":  "次に会える日、カレンダーに丸つけたいなぁ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "What day is it today?"
+                                             }
+                                  },
+                     "state_32":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "すぅ……。",
+                                                 "normal":  "すぅ……すぅ……。",
+                                                 "like":  "むにゃ……おやすみ……。",
+                                                 "love":  "むにゃ……明日も、遊ぼうね……。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_33":  {
+                                      "ja":  {
+                                                 "default":  "はぁ～、いい湯だな～",
+                                                 "hate":  "はぁ……あったまる。",
+                                                 "dislike":  "ふぅ、いいお湯。",
+                                                 "normal":  "はぁ～、いい湯だな～。",
+                                                 "like":  "はぁ～極楽ぅ。ほっぺまでぽかぽか。",
+                                                 "love":  "んぁ～、気持ちいい。上がってもまだぽかぽかだといいな。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah~, what a nice bath~"
+                                             }
+                                  },
+                     "state_34":  {
+                                      "ja":  {
+                                                 "default":  "うん、今日も可愛い！",
+                                                 "hate":  "……こんなもんかな。",
+                                                 "dislike":  "よし、前髪なおった。",
+                                                 "normal":  "うん、今日も可愛い！",
+                                                 "like":  "どう？ かわいくできた？",
+                                                 "love":  "えへへ。君にかわいいって言われたくて、もう一回見ちゃった。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Yep, cute as always today!"
+                                             }
+                                  },
+                     "state_35":  {
+                                      "ja":  {
+                                                 "default":  "何見てるのー？",
+                                                 "hate":  "あ、ここなら見える。",
+                                                 "dislike":  "へぇ、これ流してたんだ。",
+                                                 "normal":  "おっ、面白そう！",
+                                                 "like":  "ここ見やすいよ～。こっちおいで！",
+                                                 "love":  "ちょっと待って、見逃しちゃう！ 君も一緒に見て～！"
+                                             },
+                                      "en":  {
+                                                 "default":  "What are you watching~?"
+                                             }
+                                  },
+                     "state_36":  {
+                                      "ja":  {
+                                                 "default":  "今日は何日だっけ？",
+                                                 "hate":  "今日、ここか。",
+                                                 "dislike":  "あっ、今日だったんだ。",
+                                                 "normal":  "なるほど、今日はここね！",
+                                                 "like":  "あ、これ明日じゃん！ 忘れないようにね。",
+                                                 "love":  "この日、空けとこ。君と何かしたいなぁ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "What day is it today?"
+                                             }
+                                  },
+                     "state_41":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "こっち向こ……むにゃ。",
+                                                 "normal":  "すぅ……左、落ち着く……。",
+                                                 "like":  "こっち向いて寝るね……おやすみ。",
+                                                 "love":  "君の方、向いて寝る……すぅ……。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_42":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "ん……こっち向こ。",
+                                                 "normal":  "寝返り……よいしょ……。",
+                                                 "like":  "すぅ……こっちもあったかい……。",
+                                                 "love":  "ふふ……いい夢、見られそう……。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_43":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "ん……うつ伏せのが楽。",
+                                                 "normal":  "枕ふわふわ……すぅ。",
+                                                 "like":  "むにゃ……あとで起こしてね……。",
+                                                 "love":  "あのね、起きたらまた……すぅ……。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_46":  {
+                                      "ja":  {
+                                                 "default":  "ひゃ～！冷たい！",
+                                                 "hate":  "つめたっ。",
+                                                 "dislike":  "ん～、冷たっ！",
+                                                 "normal":  "ひゃ～！ 冷たーい！",
+                                                 "like":  "ひゃっ、思ったより冷たい！ ふふっ。",
+                                                 "love":  "ひゃーっ！ 君に見られてたら、余計へんな声出ちゃった！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Eek! It\u0027s cold!"
+                                             }
+                                  },
+                     "state_47":  {
+                                      "ja":  {
+                                                 "default":  "冷たいの入るー！",
+                                                 "hate":  "冷たい方、入ってくる。",
+                                                 "dislike":  "水風呂、ちょっとだけ。",
+                                                 "normal":  "冷たいの入るー！",
+                                                 "like":  "見てて。今度こそ変な声出さないっ。",
+                                                 "love":  "せーので入ろ！ ……ちょっと待って、心の準備がまだ！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Going into the cold water!"
+                                             }
+                                  },
+                     "state_72":  {
+                                      "ja":  {
+                                                 "default":  "そろそろ寝ようかな～",
+                                                 "hate":  "上の方で休むね。",
+                                                 "dislike":  "展望のベッドに行こっかな。",
+                                                 "normal":  "上で寝ようかな～。",
+                                                 "like":  "上の景色、見に行く？ 私、ちょっと眠いけど。",
+                                                 "love":  "あの景色、君と見たいやつ！ 寝る前にもう一回見にいこ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "I should sleep soon~"
+                                             }
+                                  },
+                     "state_73":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "ここ、静か……すぅ。",
+                                                 "normal":  "きれいな景色……すぅ……。",
+                                                 "like":  "しずかだねぇ……おやすみ。",
+                                                 "love":  "また一緒に見よ……すぅ……。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_74":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "こっち向いて寝る……。",
+                                                 "normal":  "窓、まだ見える……すぅ。",
+                                                 "like":  "むにゃ……お空、きれい……。",
+                                                 "love":  "明日も一緒に見よね……むにゃ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_75":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "ん……向き変えよ。",
+                                                 "normal":  "よいしょ……すぅ。",
+                                                 "like":  "この向き、落ち着くね……。",
+                                                 "love":  "まだいる？ ……よかった。おやすみ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_76":  {
+                                      "ja":  {
+                                                 "default":  "すぅ…すぅ…",
+                                                 "hate":  "……すぅ。",
+                                                 "dislike":  "枕……ふかふか。",
+                                                 "normal":  "んぁ、もう寝ちゃう……。",
+                                                 "like":  "うつ伏せ、楽だねぇ……すぅ。",
+                                                 "love":  "君がいると安心するなぁ……むにゃ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Zzz... Zzz..."
+                                             }
+                                  },
+                     "state_81":  {
+                                      "ja":  {
+                                                 "default":  "どっこいしょっと",
+                                                 "hate":  "……ふぅ。",
+                                                 "dislike":  "よいしょ。座れた。",
+                                                 "normal":  "どっこいしょっと。",
+                                                 "like":  "やっと座れた～。隣も空いてるよ！",
+                                                 "love":  "こっちこっち。座ったら、さっきの話の続き聞かせて？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Heave-ho~"
+                                             }
+                                  },
+                     "state_82":  {
+                                      "ja":  {
+                                                 "default":  "座ろーっと",
+                                                 "hate":  "あの椅子、空いてる。",
+                                                 "dislike":  "ちょっと椅子まで行ってくる。",
+                                                 "normal":  "座ろーっと。",
+                                                 "like":  "あっち座んない？ ちょっと休も～。",
+                                                 "love":  "先に行って待ってるね。隣、ちゃんと取っとく！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Let\u0027s sit down~"
+                                             }
+                                  },
+                     "sleepy":  {
+                                    "ja":  {
+                                               "default":  "ふぁ…眠くなってきた…",
+                                               "hate":  "ふぁ……ねむ。",
+                                               "dislike":  "ふぁぁ……眠くなってきた。",
+                                               "normal":  "ふぁ……眠くなってきたよぉ。",
+                                               "like":  "ふぁ～あ……あっ、見てた？ えへへ。",
+                                               "love":  "ふぁぁ……君のそば、落ち着くから眠くなっちゃう。"
+                                           },
+                                    "en":  {
+                                               "default":  "Yawn... I\u0027m getting sleepy..."
+                                           }
+                                },
+                     "state_-1":  {
+                                      "ja":  {
+                                                 "hate":  "ん……。",
+                                                 "dislike":  "よいしょ。",
+                                                 "normal":  "よーし、準備できた！",
+                                                 "like":  "おっ、待っててくれた？",
+                                                 "love":  "おまたせ～！ 今日は何する？"
+                                             }
+                                  },
+                     "state_0":  {
+                                     "ja":  {
+                                                "hate":  "ふらっとしてくる。",
+                                                "dislike":  "ちょっと歩こっかな。",
+                                                "normal":  "ふふ～ん、どこ行こっかな？",
+                                                "like":  "お散歩してくるね～。",
+                                                "love":  "ちょっと一周してくる！ 帰ったらまた遊ぼ？"
+                                            }
+                                 },
+                     "state_12":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "わっ、ちょっと待って。",
+                                                 "dislike":  "ん、ゆっくりね。",
+                                                 "normal":  "ん……びっくりしたぁ。",
+                                                 "like":  "ひゃっ。くすぐったいってば～。",
+                                                 "love":  "ふふっ、びっくりした。ちょっと休も？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_13":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……今日はここまで。",
+                                                 "dislike":  "ん～、ちょっと離れて。",
+                                                 "normal":  "わっ、急だよぉ。",
+                                                 "like":  "ひゃっ、も～、びっくりした！",
+                                                 "love":  "えへへ……ちょっと照れちゃった。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_19":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったんやめよ。",
+                                                 "dislike":  "ちょっと待ってね。",
+                                                 "normal":  "んっ……ひと休み～。",
+                                                 "like":  "ふぅ……少しのんびりしよ？",
+                                                 "love":  "君とおしゃべりして、一息つきたいな。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_29":  {
+                                      "ja":  {
+                                                 "hate":  "……",
+                                                 "dislike":  "んーっと。",
+                                                 "normal":  "あれ？ 今なにしようとしてたっけ？",
+                                                 "like":  "ふふ、ちょっとぼーっとしてた。",
+                                                 "love":  "なんでもないよ～。君の顔、見てただけ。"
+                                             }
+                                  },
+                     "state_44":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……ふぅ。",
+                                                 "dislike":  "少し落ち着こう。",
+                                                 "normal":  "ぽけーっ……。",
+                                                 "like":  "へへ、ちょっとぼーっとしちゃった。",
+                                                 "love":  "ん……変な顔してた？ も～、見ないでぇ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_45":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……少し休んでるね。",
+                                                 "dislike":  "ふぅ、横になろ。",
+                                                 "normal":  "ごろーん……ひと休み。",
+                                                 "like":  "ね、ここでちょっと休も？",
+                                                 "love":  "君も休む？ ふたりでごろごろしよ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_48":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……止まって。",
+                                                 "dislike":  "ちょっと待って、バランスが……。",
+                                                 "normal":  "よいしょ。これでいい？",
+                                                 "like":  "よいしょっと。ね、手を貸して～。",
+                                                 "love":  "ふふっ、危なかった。手、ありがと。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_49":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……無理かも。",
+                                                 "dislike":  "んしょ……ちょっと難しい。",
+                                                 "normal":  "よいしょっ……ふぅ。",
+                                                 "like":  "手ぇ貸してくれる？ えへへ。",
+                                                 "love":  "ふぅ～、支えてくれたから助かった！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_50":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……位置、変えるね。",
+                                                 "dislike":  "もうちょいそっちかな。",
+                                                 "normal":  "あれっ、向きこっち？",
+                                                 "like":  "こっちかな？ ふふ、合ってる？",
+                                                 "love":  "うん、いい感じ！ 君、合わせるの上手だね。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_54":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "ちょっと待ってぇ",
+                                                 "like":  "ねえ、ちょっと待ってぇ。",
+                                                 "love":  "えへへ。ちょっと待ってぇ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_55":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "ゆっくり、ゆっくり～",
+                                                 "like":  "ねえ、ゆっくり、ゆっくり～。",
+                                                 "love":  "えへへ。ゆっくり、ゆっくり～。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_56":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "準備できた？",
+                                                 "like":  "ねえ、準備できた？。",
+                                                 "love":  "えへへ。準備できた？。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_57":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "いったん深呼吸しよ",
+                                                 "like":  "ねえ、いったん深呼吸しよ。",
+                                                 "love":  "えへへ。いったん深呼吸しよ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_58":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "もうちょい待ってて",
+                                                 "like":  "ねえ、もうちょい待ってて。",
+                                                 "love":  "えへへ。もうちょい待ってて。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_59":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "わっ、びっくりしたぁ",
+                                                 "like":  "ねえ、わっ、びっくりしたぁ。",
+                                                 "love":  "えへへ。わっ、びっくりしたぁ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_60":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "もう少しゆっくりね",
+                                                 "like":  "ねえ、もう少しゆっくりね。",
+                                                 "love":  "えへへ。もう少しゆっくりね。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_61":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "よいしょ、こんな感じ？",
+                                                 "like":  "ねえ、よいしょ、こんな感じ？。",
+                                                 "love":  "えへへ。よいしょ、こんな感じ？。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_62":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "ふふっ、なんか照れる",
+                                                 "like":  "ねえ、ふふっ、なんか照れる。",
+                                                 "love":  "えへへ。ふふっ、なんか照れる。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_63":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "ふぅ……休憩しよ",
+                                                 "like":  "ねえ、ふぅ……休憩しよ。",
+                                                 "love":  "えへへ。ふぅ……休憩しよ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_64":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "これで合ってるかな",
+                                                 "like":  "ねえ、これで合ってるかな。",
+                                                 "love":  "えへへ。これで合ってるかな。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_65":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "大丈夫？ どこか痛くない？",
+                                                 "like":  "ねえ、大丈夫？ どこか痛くない？。",
+                                                 "love":  "えへへ。大丈夫？ どこか痛くない？。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_66":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "……いったん止まろ。",
+                                                 "dislike":  "ん、ちょっとだけ待って。",
+                                                 "normal":  "ふぅ～、おつかれさま",
+                                                 "like":  "ねえ、ふぅ～、おつかれさま。",
+                                                 "love":  "えへへ。ふぅ～、おつかれさま。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_77":  {
+                                      "ja":  {
+                                                 "default":  "あっ…あんっ…",
+                                                 "hate":  "つける前に言ってね。",
+                                                 "dislike":  "そっとつけてくれる？",
+                                                 "normal":  "じっとしてるね。まだかな～？",
+                                                 "like":  "つけてくれるの？ 似合うといいなぁ。",
+                                                 "love":  "君が選んだやつ？ えへへ、早く見たい！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Ah... Ann..."
+                                             }
+                                  },
+                     "state_51":  {
+                                      "ja":  {
+                                                 "default":  "あまっ…おいしい…！",
+                                                 "hate":  "……あ、甘い。",
+                                                 "dislike":  "思ったよりおいしいね。",
+                                                 "normal":  "あまっ……おいしい……！",
+                                                 "like":  "おいし～！ ちょっと照れちゃった。",
+                                                 "love":  "あま～い。ねえ、もう一本、一緒に食べよ？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Sweet... It\u0027s delicious...!"
+                                             }
+                                  },
+                     "state_52":  {
+                                      "ja":  {
+                                                 "default":  "あーん…",
+                                                 "hate":  "……ひと口だけね。",
+                                                 "dislike":  "ちょっとゆっくりね。",
+                                                 "normal":  "あーん……。",
+                                                 "like":  "あーん……ふふ、いいよ！",
+                                                 "love":  "せーの、あーん！ ……やっぱりちょっと照れるね。"
+                                             },
+                                      "en":  {
+                                                 "default":  "Say ah..."
+                                             }
+                                  },
+                     "state_67":  {
+                                      "ja":  {
+                                                 "default":  "もぐもぐ…んまっ！",
+                                                 "hate":  "……もぐもぐ。",
+                                                 "dislike":  "ひとくちだけ……ん。",
+                                                 "normal":  "もぐもぐ……んまっ！",
+                                                 "like":  "ん～っ、おいし！ もうひと口いい？",
+                                                 "love":  "んま～っ！ ほら、これ。君にもひと口あげる！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Munch munch... Yummy!"
+                                             }
+                                  },
+                     "state_68":  {
+                                      "ja":  {
+                                                 "default":  "これ好き！",
+                                                 "hate":  "……けっこう好き。",
+                                                 "dislike":  "ん、これ好きかも。",
+                                                 "normal":  "これ好き！",
+                                                 "like":  "これ好き～！ よく分かったね。",
+                                                 "love":  "ね、私の好きな味、覚えててくれた？ えへへ。"
+                                             },
+                                      "en":  {
+                                                 "default":  "I like this!"
+                                             }
+                                  },
+                     "state_69":  {
+                                      "ja":  {
+                                                 "default":  "すっごく美味しい！！",
+                                                 "hate":  "んっ……おいし。",
+                                                 "dislike":  "あれ、これすごくおいしい。",
+                                                 "normal":  "すっごく美味しい！！",
+                                                 "like":  "んま～っ！ 絶対また食べたい！",
+                                                 "love":  "うわぁ、なにこれ最高～！ もう一個、一緒に食べよ？"
+                                             },
+                                      "en":  {
+                                                 "default":  "It\u0027s super delicious!!"
+                                             }
+                                  },
+                     "state_80":  {
+                                      "ja":  {
+                                                 "default":  "うーん、ちょっと微妙かも…",
+                                                 "hate":  "んー……これ苦手かも。",
+                                                 "dislike":  "あれ、思ってた味と違う……。",
+                                                 "normal":  "うーん、ちょっと微妙かも……。",
+                                                 "like":  "えへへ、ごめん。私にはちょっと変わった味だった。",
+                                                 "love":  "選んでくれたのはうれしいよ！ 次はおいしいの、一緒に探そ？"
+                                             },
+                                      "en":  {
+                                                 "default":  "Hmm, it\u0027s a bit weird..."
+                                             }
+                                  },
+                     "hungry":  {
+                                    "ja":  {
+                                               "default":  "お腹すいたよぉ…何か食べたいなぁ…",
+                                               "hate":  "ぐぅ……お腹すいた。",
+                                               "dislike":  "お腹、鳴ったかも……。",
+                                               "normal":  "お腹すいたよぉ……何か食べたいなぁ。",
+                                               "like":  "ねえねえ、おやつない？ お腹ぺこぺこ～。",
+                                               "love":  "お腹すいたぁ。おいしいもの見つけたら、半分こしよ？"
+                                           },
+                                    "en":  {
+                                               "default":  "I\u0027m hungry... I want to eat something..."
+                                           }
+                                },
+                     "birthday":  {
+                                      "ja":  {
+                                                 "default":  "お誕生日おめでとう！いつもありがとうね！",
+                                                 "hate":  "あ、誕生日なんだ。おめでと。",
+                                                 "dislike":  "お誕生日おめでと～。いい日になるといいね。",
+                                                 "normal":  "お誕生日おめでとーっ！ ばんざーい！",
+                                                 "like":  "おめでとう～！ 今日はお祝いしよっ。ケーキあるかな？",
+                                                 "love":  "お誕生日おめでとーっ！ 今日、会いに来てくれてうれしい！ ばんざーい！"
+                                             },
+                                      "en":  {
+                                                 "default":  "Happy Birthday! Thank you for everything!"
+                                             }
+                                  },
+                     "gift_offer":  {
+                                        "ja":  {
+                                                   "default":  "これ、あげる！受け取って！",
+                                                   "hate":  "あの、これ。よかったら。",
+                                                   "dislike":  "ねえ、これどうぞ。もらってくれる？",
+                                                   "normal":  "これ、あげる！ 受け取って！",
+                                                   "like":  "じゃーん！ 気に入ってくれるかな？ 開けてみて！",
+                                                   "love":  "えへへ、君に渡したくて用意したんだ。はい、プレゼント！"
+                                               },
+                                        "en":  {
+                                                   "default":  "Here, this is for you! Take it!"
+                                               }
+                                    }
+                 }
 }
