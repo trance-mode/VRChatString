@@ -1,0 +1,60 @@
+{
+  "dialogue": {
+    "first_greeting": {
+      "ja": {
+        "default": "こんにちは！よろしくね！"
+      },
+      "en": {
+        "default": "Hello! Nice to meet you!"
+      }
+    },
+    "hungry": {
+      "ja": {
+        "default": "お腹すいたよぉ…何か食べたいなぁ…"
+      },
+      "en": {
+        "default": "I'm hungry... I want to eat something..."
+      }
+    },
+    "birthday": {
+      "ja": {
+        "default": "お誕生日おめでとう！いつもありがとうね！"
+      },
+      "en": {
+        "default": "Happy Birthday! Thank you for everything!"
+      }
+    },
+    "gift_offer": {
+      "ja": {
+        "default": "これ、あげる！受け取って！"
+      },
+      "en": {
+        "default": "Here, this is for you! Take it!"
+      }
+    },
+    "return_greeting": {
+      "ja": {
+        "default": "久しぶり！また会えてうれしい！"
+      },
+      "en": {
+        "default": "It's been a while! I'm happy to see you again!"
+      }
+    },
+    "welcome_wave": {
+      "ja": {
+        "default": "あ、ご主人様！"
+      },
+      "en": {
+        "default": "Oh, Master!"
+      }
+    },
+    "sleepy": {
+      "ja": {
+        "default": "ふぁ…眠くなってきた…"
+      },
+      "en": {
+        "default": "Yawn... I'm getting sleepy..."
+      }
+    }
+  }
+}
